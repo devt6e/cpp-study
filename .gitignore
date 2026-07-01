@@ -1,0 +1,22 @@
+# 컴파일 산출물
+*.exe
+*.o
+*.out
+*.obj
+
+# 디버그 심볼
+*.pdb
+*.ilk
+
+# 실행 시 생기는 파일
+*.log
+
+# OS 자동 생성 파일
+Thumbs.db
+.DS_Store
+
+# 에디터/IDE 개인 설정 (선택)
+# .vscode/settings.json은 개인 설정이라 제외하는 게 좋지만,
+# tasks.json, launch.json은 환경 설정이라 커밋에 포함
+.vscode/settings.json
+.vscode/*.log
