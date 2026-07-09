@@ -1,3 +1,4 @@
+//가상함수의 사용법에 대해 알아보자. 
 #include <iostream>
 
 class Enemy
