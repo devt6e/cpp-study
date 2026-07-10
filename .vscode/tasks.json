@@ -39,7 +39,7 @@
         {
             "label": "build and run",
             "type": "shell",
-            "command": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "command": "chcp 65001 | Out-Null; & '${fileDirname}\\${fileBasenameNoExtension}.exe'",
             "dependsOn": "C/C++: g++.exe build active file",
             "options": {
                 "cwd": "${fileDirname}",
